@@ -18,4 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+     # Hello, world!
+    url(r'', 'osbridge_volunteer.views.index'),
 ]
