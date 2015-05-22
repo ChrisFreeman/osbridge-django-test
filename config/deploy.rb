@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
-lock '3.3.3'
+lock '>= 3.3.3'
 
 set :application, 'osbridge-volunteer'
-set :repo_url, 'git@github.com:reidab/osbridge-django-test.git'
+set :repo_url, 'git@github.com:chrisfreeman/osbridge-django-test.git'
 
 namespace :deploy do
 
